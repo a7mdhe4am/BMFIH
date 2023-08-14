@@ -1,0 +1,139 @@
+@charset "utf-8";
+.color1{
+    background-color: white;
+}
+
+.body{
+    background-color: rgb(236, 236, 236);
+}
+.formbody{
+  background-color: #e4e0e0;
+}
+.sec2{
+    display: flex;
+    background-color:#e4e0e0;
+    flex-direction: column;
+    margin-left: 50%;
+    /* margin-bottom: 52%; */
+    margin-right: 50%;
+    margin-top: 12%;
+    border: 2px solid black;
+    width: 200px;}
+
+.btn2{
+    display: flex;
+    border-radius: 10px;
+    border-style:none;
+    border-color: white;
+    background-color:871e35;
+    margin: 5% 5% 5% 5%;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    text-align: left;
+}
+
+.form{
+    width: 20%;
+    box-align: center;
+    margin-left: 1%;
+    
+    
+}
+
+.aboutcenter{
+    text-align: center;
+}
+
+.aboutimage{
+    align-content: center;
+}
+
+
+  .ab1{
+    color: #871e35;
+    font-size: 50px;
+  }
+
+  .carousel {
+    width:100%;
+    height:700px;
+  }  
+ 
+  .slidertext{
+    font-size:80px;
+    opacity: 80%;
+  }
+
+
+  .star{
+    color: orange;
+  }
+
+
+
+  .flaticon{
+    margin-left: 13%;
+    margin-top: 8%;
+    text-align: center;
+  }
+
+
+  .flaticon2{
+    margin-bottom: 7%;
+    margin-left: 6%;
+    text-align: center;
+  }
+
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.1em;
+}
+.navbar .navbar-nav .nav-link:hover {
+  background-color: #871e35;
+  color: #fff;
+}
+.container {
+position: relative;
+width: 100%;
+}
+
+.image {
+display: block;
+width: 100%;
+height: auto;
+}
+
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: .5s ease;
+background-color: #871e35;
+}
+
+.container:hover .overlay {
+opacity: 0.8;
+}
+
+.text {
+color: white;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: center;
+}
+.h1{
+color: black;
+text-align: center;
+font-size:70;
+}
